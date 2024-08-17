@@ -1,0 +1,99 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+#root{
+
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+
+}
+
+.steps {
+  width: 500px;
+  height: 250px;
+
+  margin-top: 50px;
+  background:#a6a4a427;
+}
+
+.numbers {
+  list-style: none;
+  display: flex;
+  justify-content:  space-evenly;
+  margin-top: 20px;
+  
+}
+.numbers > li {
+  width: 20px;
+  height: 20px;
+  background:#33333338;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 1rem 0rem;
+  color: #383838;
+}
+.message {
+  width: 100%; 
+  height: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem; 
+  font-weight: 500;
+  font-family: "Poppins";
+}
+.buttons {
+   width: 100%;
+    display: flex;  
+    justify-content: space-around;
+}
+
+.btn {
+  width: 100px;
+  padding: 0.8rem;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.numbers .active {
+   background: #7950f2;
+   color: aliceblue;
+}
+
+
+.close {
+  width: 20px;
+  height: 30px;
+  border: none;
+  background: #fff;
+  font-size: 2rem;
+}
+.Open {
+   width: 20px;
+  height: 30px;
+  border: none;
+  background: #fff;
+  font-size: 2rem;
+}
+
+.container {
+  position: relative;
+  width: fit-content;
+  height: auto;
+} 
+
+.close {
+   position: absolute;
+ 
+  width: 50px ;
+  height: 50px;
+  right: 0;
+}
